@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    width: 100%;
 }
 
 /*
@@ -168,25 +169,31 @@ textarea {
 }
 
 footer{
-    background-color: #C23E46;
-    border-bottom: 0 solid transparent;
-    color: #fff;
+  background-color: #C23E46;
+  border-bottom: 0 solid transparent;
+  color: #fff;
 
-    display: block;
-    height: 50px;
-    font-size: 20px;
-    line-height: 50px;
-    width: 100%;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    padding: 5px 15px;
-    font-weight: 300;
+  display: block;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  width: 100%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 2px 15px;
+  font-weight: 300;
+  position: absolute;
+  top: 584px;
+    
+  
+  
 }
 
 footer div h3{
 
-    margin: auto;
-    width: 20%;
-    float: left;
+  margin: auto;
+  width: 20%;
+  float: left;
+   
 }
 
 #img-tostion{
@@ -207,24 +214,27 @@ footer div h3{
 }
 
 aside{
-  width: 230px;
+  
   background: #C2030F;
+  bottom: 5px;
+  display: table-cell;
   position: relative;
-  top: 0px;
-  padding: 16px;
-  height: 500px;
+  height: 571px;
+  width: 260px;
+
 }    
 
 #seleccion-u{
-    width: 302px;
+    width: 265px;
     position: relative;
-    right: 56px;
-    bottom: 32px;
+    
 
 }
 
 #lista-u{
     list-style:  none;
+    padding: inherit;
+    margin-top: 0px
 }
 #lista-u li{
     padding: 10px;
@@ -240,10 +250,29 @@ aside{
 
 }
 
+#principal{
+    display: table-cell;
+}
 
+#contenido{
+  display: table;
+  width: 100%;
+  height: 540px;
+}
 
+#contenido-ajax article h2{
+    text-align: center;
+}
 
+#img-logo{
+    height: 250px;
+    margin: 0px 35%;
+    width: 300px;
+}
 
+#contenido-ajax article p{
+    text-align: justify;
+}
 
 
 
