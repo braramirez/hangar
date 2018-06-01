@@ -11,10 +11,10 @@
    ========================================================================== */
 
 html {
+    background-color: #821920;
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    width: 100%;
 }
 
 /*
@@ -95,184 +95,201 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#home-nav{
-    background-color: #760209;
-    border-bottom: 0 solid transparent;
-    color: #fff;
 
-    display: block;
-    float: left;
-    height: 50px;
-    font-size: 20px;
-    line-height: 50px;
-    text-align: center;
-    width: 230px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    padding: 0 15px;
-    font-weight: 300;
-}
+ aside{
+    padding: 9px;
+    width: 70%;
 
-#home-nav a {
-   text-decoration: none;
-   color: white;
-   margin: 0px;
+ }
+
+ aside div{
+    margin: 0 auto;
+    width: 100%;
+ }
+
+ button{
+   margin-right: 1px;
+   margin-top: 57px;
+
 
 }
 
-#home-nav a h2{
+ footer{
 
-    margin: 0px;
-}
-#cont-nav > #menu-nav{
-    margin-bottom: 0;
-    margin-left: 230px;
-    border: none;
-    min-height: 50px;
-    border-radius: 0;
-    display: block;
+    height: 200px;
+    margin: 10px 32px;
+    width: 95%;
+    
+
+ }
+
+header{
+    height: 200px;
+    margin: 10px 32px;
+    width: 95%;
+    border: 2px solid black;
+    
 }
 
-#menu-nav{
-    background-color: #760209;
-    display: block;
+header img{
+    height: 200px;
+    width: 100%;
+
+    }
+nav{
+
+   background: hsl(0, 0%, 18%);
+   height: 40px;
+   margin: 0 32px;
+   width: 95%;
    
 }
-#menu{
-    display: block;
-    float: left;
 
-}
-
-.item-menu{
-    display: block;
-    float: left;
+nav ul {
+    margin: 0 25%;
+    width: 940px;
     list-style: none;
-     margin-right: 10px;
-
-}
-.item-menu a{
-    text-decoration: none;
-    color: white;
-
 }
 
-#login{
-    display: block;
-    float: right;
-    margin-right: 5px;
-    box-sizing: border-box;
+nav ul li {
+    float: left;
+}
  
-}
 
-#login ul{
-
-}
-
-footer{
-  background-color: #C23E46;
-  border-bottom: 0 solid transparent;
-  color: #fff;
-
-  display: block;
-  height: 50px;
-  font-size: 20px;
-  line-height: 50px;
-  width: 100%;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  padding: 2px 15px;
-  font-weight: 300;
-  position: absolute;
-  top: 584px;
-    
-  
-  
-}
-
-footer div h3{
-
-  margin: auto;
-  width: 20%;
-  float: left;
-   
-}
-
-#img-tostion{
-
-    margin: 0.5%;
-    width: 32px;
-    height: 32px;
-    float: left
-
-}
-
-#img-cont{
-
-    margin: 0.5%;
-    width: 10%;
-    float: left;t;
-
-}
-
-aside{
-  
-  background: #C2030F;
-  bottom: 5px;
-  display: table-cell;
-  position: relative;
-  height: 571px;
-  width: 260px;
-
-}    
-
-#seleccion-u{
-    width: 265px;
-    position: relative;
-    
-
-}
-
-#lista-u{
-    list-style:  none;
-    padding: inherit;
-    margin-top: 0px
-}
-#lista-u li{
-    padding: 10px;
-}       
-#lista-u li:hover{
-    background: #8D2D32;
-    
-}
-
-#lista-u li a{  
+nav ul li a {
+    display: block;
+    margin-right: 20px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 44px; 
+    text-align: center;
     text-decoration: none;
+    color: #777;
+    }
+
+section{
+    margin: 5px;
+}
+
+#sesion{
+    margin-left: 678px;
+    right: 160px;
+    height: 139px;
+    top: 86px;
+
+}
+
+
+
+#contenido_principal{
+    background-color: #E6E6E6;
+    border:1px solid black;
+    height: 100%;
+
+
+}
+
+.fb-login-button{
+    width: 50px;
+}
+
+.item{
+    background-color:  hsl(0, 0%, 18%);
+    border: 1px solid white;
+    list-style-type: none;
+    list-style: none;
+
+      
+
+}
+.item a{
     color: white;
+    text-decoration: none;
+
+}
+
+.menu li:hover ul{
+
+    display: block;
+
+}
+
+
+.menu li ul{
+    background-color: #737779;
+    display: none;
+}
+
+#menu_desplegable{
+    border:15px solid #8f2727;
+    border-radius: 15px;
+    color: white;
+    height: 100%;
+    text-align: center;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+
+
+#menu_desplegable ul{
+    color: white;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+
+
+#password{
+    margin-left: 94px;
+    left: 71%;
+    position: absolute;
+    top: 100px;
+    
 
 }
 
 #principal{
+    border: 1px solid black;
+    display: table;
+    height: 500px;
+    margin: 1px 32px;
+    width: 95%;
+
+}
+
+#principal div{
+    padding: 9px;
+    width: 30%;
+}
+
+#principal div, aside{
+
     display: table-cell;
+    margin: 0 1px;
 }
 
-#contenido{
-  display: table;
-  width: 100%;
-  height: 540px;
+#user{
+    margin-left: 23px;
+    left: 78%;
+    position: absolute;
+    top: 35px;
+    
 }
 
-#contenido-ajax article h2{
-    text-align: center;
-}
 
-#img-logo{
-    height: 250px;
-    margin: 0px 35%;
-    width: 300px;
-}
 
-#contenido-ajax article p{
-    text-align: justify;
-}
+
+
+
+
+
+
+
+
+
 
 
 
