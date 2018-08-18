@@ -1,2 +1,0 @@
-# hangar
-proyecto de php
